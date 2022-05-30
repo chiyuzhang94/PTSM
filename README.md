@@ -1,5 +1,6 @@
-#### NEATCLasS Submision
-## Decay No More: A Persistent Twitter Dataset for Learning Social Meaning
+
+# Decay No More: A Persistent Twitter Dataset for Learning Social Meaning
+#### Accepted by 1st Workshop on Novel Evaluation Approaches for Text Classification Systems on Social Media @ ICWSM-2022
 
 | **Original Tweet** | **Paraphrase** | **Gold Label** |
 | ----  | ------ | ------- | 
