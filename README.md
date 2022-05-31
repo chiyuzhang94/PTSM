@@ -16,6 +16,19 @@ We fine-tune a T5-based on four paraphrase gold datasets as shown below. You can
 | QQP         | Quora          | 149263        |
 | Total       | \-             | 625097        |
 
+The model can be loaded by:
+```
+from transformers import T5ForConditionalGeneration,T5TokenizerFast
+
+model = T5ForConditionalGeneration.from_pretrained(model_name_or_path)
+tokenizer = T5TokenizerFast.from_pretrained(model_name_or_path)
+```
+
+A prefix "paraphrase: " should be added in font of the input sequence, i.e.:
+```
+input_st = "paraphrase: " + text + " </s>"
+```
+
 ## Paraphrase Examples
 | **Original Tweet** | **Paraphrase** | **Gold Label** |
 | ----  | ------ | ------- | 
