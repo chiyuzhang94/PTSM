@@ -3,7 +3,7 @@
 #### Accepted by 1st Workshop on Novel Evaluation Approaches for Text Classification Systems on Social Media @ ICWSM-2022
 
 ## Datasets
-To download PTSM data, please fill out this [registration form]().
+To download PTSM data, please fill out this [registration form](). We will share the dataset after the registration. 
 
 ## Paraphrase Model
 We fine-tune a T5-based on four paraphrase gold datasets. You can find our model on: https://huggingface.co/UBC-NLP/ptsm_t5_paraphraser
