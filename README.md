@@ -10,11 +10,11 @@ We fine-tune a T5-based on four paraphrase gold datasets as shown below. You can
 
 | Dataset     | Domain         | \# of samples |
 | ----------- | -------------- | ------------- |
-| PIT-2015    | Tweet          | 3789          |
-| LanguageNet | Tweet          | 12988         |
-| Opusparcus  | Video subtitle | 462846        |
-| QQP         | Quora          | 149263        |
-| Total       | \-             | 625097        |
+| PIT-2015    | Tweet          | 3,789          |
+| LanguageNet | Tweet          | 12,988         |
+| Opusparcus  | Video subtitle | 462,846        |
+| QQP         | Quora          | 149,263        |
+| Total       | \-             | 625,097        |
 
 The model can be loaded by:
 ```
