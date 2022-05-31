@@ -2,6 +2,11 @@
 # Decay No More: A Persistent Twitter Dataset for Learning Social Meaning
 #### Accepted by 1st Workshop on Novel Evaluation Approaches for Text Classification Systems on Social Media @ ICWSM-2022
 
+
+## Paraphrase Model
+We fine-tune a T5-based on four paraphrase gold datasets. You can find our model on: https://huggingface.co/UBC-NLP/ptsm_t5_paraphraser
+
+## Paraphrase Examples
 | **Original Tweet** | **Paraphrase** | **Gold Label** |
 | ----  | ------ | ------- | 
 |USER but what I am doing is in my control, #AvoidMMT , you guys are #terrible | 1. You guys are horrible, avoid MMT <br /> 2. what I am doing is in my control, #AvoidMMT, you guys are terrifying <br /> 3. You guys are #terrorist. I have used everything I have to do. <br /> 4. You guys are awful, but I am going to stop doing it.| anger | 
