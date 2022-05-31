@@ -6,7 +6,15 @@
 To download PTSM data, please fill out this [registration form](). We will share the dataset after the registration. 
 
 ## Paraphrase Model
-We fine-tune a T5-based on four paraphrase gold datasets. You can find our model on: https://huggingface.co/UBC-NLP/ptsm_t5_paraphraser
+We fine-tune a T5-based on four paraphrase gold datasets as shown below. You can find our model on: https://huggingface.co/UBC-NLP/ptsm_t5_paraphraser 
+
+| Dataset     | Domain         | \# of samples |
+| ----------- | -------------- | ------------- |
+| PIT-2015    | Tweet          | 3789          |
+| LanguageNet | Tweet          | 12988         |
+| Opusparcus  | Video subtitle | 462846        |
+| QQP         | Quora          | 149263        |
+| Total       | \-             | 625097        |
 
 ## Paraphrase Examples
 | **Original Tweet** | **Paraphrase** | **Gold Label** |
