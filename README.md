@@ -6,8 +6,7 @@
 To download PTSM data, please fill out this [registration form](https://forms.gle/ug7Ti1W9DCrJHYn26). We will share the dataset after the registration. 
 
 ## Paraphrase Model
-We fine-tune a T5-based on four paraphrase gold datasets as shown below. You can find our model on: https://huggingface.co/UBC-NLP/ptsm_t5_paraphraser 
-
+We fine-tune a T5-based on four paraphrase gold datasets as shown below.
 | Dataset     | Domain         | \# of samples |
 | ----------- | -------------- | ------------- |
 | PIT-2015    | Tweet          | 3,789          |
@@ -16,6 +15,7 @@ We fine-tune a T5-based on four paraphrase gold datasets as shown below. You can
 | QQP         | Quora          | 149,263        |
 | Total       | \-             | 625,097        |
 
+You can find our model on: https://huggingface.co/UBC-NLP/ptsm_t5_paraphraser 
 You can load this model by:
 ```python
 from transformers import T5ForConditionalGeneration,T5TokenizerFast
