@@ -1,6 +1,6 @@
 
 # [Decay No More: A Persistent Twitter Dataset for Learning Social Meaning](https://arxiv.org/pdf/2204.04611.pdf)
-#### Accepted by 1st Workshop on Novel Evaluation Approaches for Text Classification Systems on Social Media @ ICWSM-2022
+#### Best Paper Award by 1st Workshop on Novel Evaluation Approaches for Text Classification Systems on Social Media @ ICWSM-2022
 ![](https://github.com/chiyuzhang94/PTSM/blob/main/pic/title.png)
 ## Datasets
 To download PTSM data, please fill out this [registration form](https://forms.gle/ug7Ti1W9DCrJHYn26). We will share the dataset after the registration. 
